@@ -1,0 +1,39 @@
+/* 暗黑色 */
+html[data-theme=dark] {
+  /* login 页面 */
+  --g_login_font_color: #fff;
+  --g_login_border_color: #fff;
+  --g_opposite_bgColor: #000;
+  /* 全局banner */
+    --g_banner_bg: #000;
+    --g_banner_color: #fff;
+  /* status-bar */
+    --g-status-bar-hover: #58f5d3;
+    --g-status-bar-color: #3c3c3c;
+  /* home 页面 */
+  --g_home_bg: #3c3c3c;
+
+    /* blog 页面 */
+    --g_blog_bg: #3c3c3c;
+}
+
+
+/* 默认 */
+:root {
+  --g_login_font_color: #000;
+  --g_login_border_color: #000;
+  --g_opposite_bgColor: #fff;
+  /* 全局banner */
+  --g_banner_bg: #fff;
+  --g_banner_color: #000;
+
+  /* status-bar */
+  --g-status-bar-hover: #62e175;
+  --g-status-bar-color: #fff;
+
+  /* home 页面 */
+  --g_home_bg: #f1f3f9;
+
+  /* blog 页面 */
+  --g_blog_bg: #f1f3f9;
+}
